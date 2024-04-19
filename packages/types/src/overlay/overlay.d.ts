@@ -4,7 +4,7 @@ declare namespace T {
    */
   class Overlay {
     constructor(opts: any);
-    extend(opts: OverlayExtendOptions): Overlay;
+    static extend(opts: OverlayExtendOptions): Overlay;
   }
   /**
    * 自定义覆盖物构造类参数
